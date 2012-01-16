@@ -1,0 +1,14 @@
+Gavilan College
+CSIS 45 - C++ Programming 1
+Teacher Dennie Van Tassel
+Student J. Gavin Ray
+
+This entire Git is to include all coursework from the class.  It is being
+placed on Github to allow porting of all software onto Windows/Mac/Linux
+Platforms.  The Course is recommending Bloodshed Dev C++ IDE to do the work. 
+While this IDE appears to be a full featured IDE, it isn't portable to Linux
+or Mac.  Code::Blocks is going to be installed on all of my machines as it is
+a tri-platform IDE (Windows/Mac/Linux), and will allow me to access and work
+on my schoolwork from any location I need to.  As of this time I am also
+planning to complete this work on a Pen Drive Linux Distrobution (Ubuntu 10.04)
+to keep everything mobile.
