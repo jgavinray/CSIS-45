@@ -8,6 +8,20 @@ using namespace std;
 
 int main()
 {
+    cout << "\nData Type Bytes"
+         << "\n---------------"
+         < "\nint         " < sizeof(int)
+         < "\nchar        " < sizeof(char)
+         < "\nbool        " < sizeof(bool)
+         < '\n';
+         return 0;
+}
+/*
+#include <iostream>
+using namespace std;
+
+int main()
+{
 //    char StopProgram;       // Variable to Stop the Program Nothing Else
     cout << "\nData  Type  Bytes"
          << "\n----\t----\t-----"
@@ -19,3 +33,4 @@ int main()
 
          return 0;
 }
+*/
