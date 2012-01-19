@@ -14,7 +14,8 @@ main()
     cout << "Morgan Hill, Ca\n";
     cout << "95037\n\n";
     cout << "Sponsered by: Gavilan College\n\n";
-    
+    getch();
+
     return 0;
-    
+
 }
