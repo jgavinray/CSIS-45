@@ -7,11 +7,219 @@
 //
 
 
+// File: Exercise3-4.cpp
+// Description: Exercise 3.4 #8
+// By: J. Gavin Ray
+// Date: 1/24/2012
+
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main()
+{
+    float a;
+    char Continue;
+    
+//    do {
+      cout << "\nSquare Root Calculator\n\n";
+    cout << "Please enter a number to find the Square Root of: ";
+    cin  >> a;
+    cout << "\nThank you!\n\nThe square root of " << a << " is " << sqrt(a);
+    cout << "\n\nWould you like to check another Square Root? (Y/N)";
+loop:
+    cin  >> Continue;
+//    } while ( Continue != 'N');  
+    
+// 842-6505
+    switch (Continue)
+    {
+        case 'Y':
+            cout << "\nSquare Root Calculator\n\n";
+            cout << "Please enter a number to find the Square Root of: ";
+            cin  >> a;
+            cout << "\nThank you!\n\nThe square root of " << a << " is " << sqrt(a);
+            cout << "\n\nWould you like to check another Square Root? (Y/N)";
+            cin  >> Continue;
+            break;
+            case 'y':
+            cout << "\nSquare Root Calculator\n\n";
+            cout << "Please enter a number to find the Square Root of: ";
+            cin  >> a;
+            cout << "\nThank you!\n\nThe square root of " << a << " is " << sqrt(a);
+            cout << "\n\nWould you like to check another Square Root? (Y/N)";
+            cin  >> Continue;
+            break;
+            case 'N':
+            cout << "\nEnd of Program.";
+            break;
+            case 'n':
+            cout << "\nEnd of Program.";
+            break;
+        default:
+            cout << "\nThat is not a Valid selection, please choose either Y or N: ";
+            goto loop;
+    }
+    
+         
+    return 0;
+}
+
+
+/*
+// File: Exercise3-3.cpp
+// Description: Exercise 3.3 #4
+// By: J. Gavin Ray
+// Date: 1/24/2012
+
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main()
+{
+    double a = 1728.8964;
+    double b;
+    
+    b = a;
+    a = sqrt(a);
+    a = sqrt(a);
+    cout.precision(9);
+    cout << "\nDisplaying the fourth root of " << b << ": " << a << "\n\n";
+    
+    return 0;
+}
+*/
+// File: Chapter3.cpp
+// Description: Exercise 3.1 #1, Exercise 3.2 #3, and Pythagorean Function
+// By: J. Gavin Ray
+// Date: 1/24/2012
+/*
+#include <iostream>
+using namespace std;
+
+float pythagorean(float a,float b)
+{
+    return (a * a) + (b * b);
+}
+
+float circumference(float a, float b)
+{
+    return 2 * a * b;
+}
+
+int main()
+{
+
+    double radius   = 3.3;          // Radius for Exercise 3.1 #1
+    double pi       = 3.1416;       // Pi for Exercise 3.1 #1
+    double c;                       // Variable for Exercise 3.1 #1
+
+    int Fifteen = 3 * 5;            // Variable/Expression for Exercise 3.2 #3
+    double Answer1 = 7.1 * 8.3 - 2.2; // Variable/Expression for Exercise 3.2 #3
+    double Answer2 = 3.2 / (6.1 * 5); // Variable/Expression for Exercise 3.2 #3
+    
+    float a;
+    float b;
+    
+// Begin Exercise 3.1 #1
+    
+    cout    << "\nExercise 3.1 #1 - Finding the Circumference of a Circle:\n";
+    cout    << "Formula 2 * pi * radius\n\n";
+    cout    << "Pi = " << pi << " Radius = " << radius << "\n";
+    c = circumference(pi, radius);                                      // Call function to do the Math
+    cout    << "Circumference of Circle: " << c << "\n\n";
+    
+//  End Exercise 3.1 #1
+//  Begin Exercise 3.2 #3
+    
+    cout    << "Exercise 3.2 #3 - Calculate/Display Results from Expressions\n";
+    cout    << "3.0 * 5.0 = " << Fifteen << "\n";
+    cout    << "7.1 * 8.3 - 2.2 = " << Answer1 << "\n";
+    cout    << "3.2 / (6.1 * 5) = " << Answer2 << "\n\n";
+// End Exercise 3.2 #3
+// Begin Hopefully Something Interesting
+    
+    cout    << "Hopefully Something Interesting, going to call a function that uses the Pythagorean Theorem!\n";
+    cout    << "Please enter a number: ";
+    cin     >> a;
+    cout    << "\nThank you, please enter another number: ";
+    cin     >> b;
+    cout    << "\nFunction called, the answer of A squared + B squared = " << pythagorean(a,b) << ".  Hopefully it gets the grade!\n";
+    
+    
+    return 0;
+}
+*/
+ 
+/*
+// File: Exercise2-7.cpp
+// Description: Exercises 2.5 #10
+// By: J. Gavin Ray
+// Date: 1/22/2012
+
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int amount(int a, double b, double c)
+{
+    return a * pow((1 + b), c);
+}
+
+int main()
+{
+
+    
+    int A = 24;              // Amount
+    double I = 4;              // Interest
+    double N = 300;              // Years Compounded
+    int StopProgram;    // Stop Program Variable
+    
+    cout << "\nInterest Calculator by J. Gavin Ray\n";
+
+    cout << "-----------------------------------\n\n";
+   
+    cout << "Please enter an Initial Deposit:\t$" << A;
+    
+    cout << "\nPlease enter an Interest Rate:\t\t" << I << "%";
+    
+    I = I / 100;                // Easier on my brain to just deal with a whole % above
+    
+    cout << "\nPlease enter a Time Frame in Years:\t" << N;
+    
+    cout << "\n\nTotal amount after " << N << " years is:\t\t$" << amount(A,I,N) << "\n";
+    
+    cin  >> StopProgram;
+    
+    return 0;
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // File: Exercise2-5.cpp
 // Description: Exercises 2.5
 // By: J. Gavin Ray
 // Date: 1/22/2012
 
+/*
 #include <iostream>
 using namespace std;
 
@@ -53,7 +261,11 @@ int main()
     cin  >> StopProgram;        // Used for Stopping the Program
     
 }
-
+*/
+ 
+ 
+ 
+ 
 // File: Program2-5.cpp
 // Description: Program 2.5 from Page 67
 // By: J. Gavin Ray
