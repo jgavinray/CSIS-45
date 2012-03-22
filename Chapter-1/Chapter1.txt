@@ -1,8 +1,11 @@
-A bit is basically an open closed switch. Based on the amount/combination of open/closed switches (bytes) the computer knows to generate a specific letter, single digit, or other single character (character code)
+A bit is basically an open closed switch. Based on the amount/combination of open/closed switches (bytes) 
+the computer knows to generate a specific letter, single digit, or other single character (character code)
 
-Assembly Language is a low level language that is MACHINE specific. It is not a high level language like C/C++ that allows it to be ported to other machines.
+Assembly Language is a low level language that is MACHINE specific. It is not a high level language like C/C++ 
+that allows it to be ported to other machines.
 
-An algorithm isn't just a mathematical formula, it is defined as a step-by-step sequence of instructions that describes how data is to be processed to produce desired results.
+An algorithm isn't just a mathematical formula, it is defined as a step-by-step sequence of instructions that 
+describes how data is to be processed to produce desired results.
 
 A formula is used to describe the mathematical equations used in a program. (Always thought that was an algorithm!)
 
